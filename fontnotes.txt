@@ -1,0 +1,103 @@
+* font-family: 'Raleway', sans-serif;
+* font-family: 'Open Sans', sans-serif;
+* font-family: 'Open Sans Condensed', sans-serif;
+* font-family: 'Montserrat', sans-serif;
+* font-family: 'Quicksand', sans-serif;
+* font-family: 'Old Standard TT', serif;
+* font-family: 'Quattrocento Sans', sans-serif;
+
+
+Font - Font Size - Line Height - Letter Spacing
+____
+
+Playfair Display - 100px, 120px, 0
+Fauna One - 16px, 32px, 20
+
+—
+Quattrocento - 100px, 120px, 0
+Fanwood Text - 16px, 30px, 20px
+
+—
+
+Open Sans - 100px 120px 0px
+Prata - 16px 32px 0px
+
+—
+
+Alfa Slab - 100px 120px 0px
+Gentium Book Basic - 16px 30px 0px
+
+—
+Nixie One - 100px 120px 0px
+Libre Baskerville - 16px 30px 0px
+
+—
+
+Julius Sans One — 72px 72px 0px
+Crimson Text - 16px 30px 0px
+
+—
+
+Oswald - 82px 120px 0px
+Quattrocento - 18px 32px 0px
+
+—
+
+Mr De Haviland - 100px 82px 0px
+Neuton - 16px 30px 0px
+
+—
+Playfair Display - 72px 82px 0px
+Slab - 14px 30px 0
+—
+Owald - 72px 88px 0px
+Open Sans - 14px 30px 0px
+
+—
+Sintony - 60px 78px 20px
+Dancing Script - 18px 36px 0px
+
+—
+
+Muli - 82px 82px 50px
+Playfair Display 42px 72px 0px ( quote? )
+Muli ( body ) - 16px 32px 0px
+
+—
+
+Sintony - 82px 100px 0px
+Poppins - 14px 30px 0px
+
+—
+
+
+Rufina 110px 100px 0px
+Rufina ( quote ) 54px 72px 0px ( scanty )
+Oxygen 18px 48px 0px
+
+— 
+
+Raleway 
+Playfair Display
+
+—
+
+Open Sans Condensed
+Open Sans
+
+—
+Montserrat
+Old standard
+
+—
+
+Quicksand
+Raleway
+
+—
+Quattrocento
+Quattrocento Sans
+
+— 
+Owald 
+Playfair Display
