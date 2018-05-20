@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import chroma from 'chroma-js';
 import logo from './logo.svg';
 import './App.css';
+import './css/fonts.css';
+import './css/color-swatch.css';
 
 class App extends Component {
   constructor(){

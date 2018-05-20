@@ -1,0 +1,29 @@
+.color-swatch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+  .color-swatch-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .color-swatch--square {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 1;
+    flex-grow: 1;
+    transition: .3s all ease;
+    flex-direction: column;
+  }
+  
+  .color-swatch--square > * {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+  }
