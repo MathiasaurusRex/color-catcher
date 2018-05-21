@@ -5,6 +5,8 @@ import './App.css';
 import './css/fonts.css';
 import './css/color-swatch.css';
 
+import ColorSwatch from './components/ColorSwatch';
+
 class App extends Component {
   constructor(){
     super();
@@ -119,41 +121,22 @@ class App extends Component {
         {/* <div>{chroma(event.target.value)}</div> */}
         <div className="color-swatch--source"></div>
         <div class="color-swatch-container">
+        
           <div className="color-swatch">
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColor}}>
-              <span style={{ color: this.state.inputColorALLY }}>
 
-                {this.state.inputColor}
-               
-              </span>
-            </div>
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColor1}}>
-              <span style={{ color: this.state.inputColor1ALLY }}>
-                {this.state.inputColor1}
-              </span>
-            </div>
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColor2}}>
-              <span style={{ color: this.state.inputColor2ALLY }}>
-                {this.state.inputColor2}
-              </span>
-            </div>
+            <ColorSwatch inputColor={this.state.inputColor} inputALLY={this.state.inputColorALLY}/>
+            <ColorSwatch inputColor={this.state.inputColor1} inputALLY={this.state.inputColor1ALLY}/>
+            <ColorSwatch inputColor={this.state.inputColor2} inputALLY={this.state.inputColor2ALLY}/>
+         
           </div>
+
           <div className="color-swatch">
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColora}}>
-              <span style={{ color: this.state.inputColoraALLY }}>
-                {this.state.inputColora}
-              </span>
-            </div>
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColor1a}}>
-              <span style={{ color: this.state.inputColor1aALLY }}>
-                {this.state.inputColor1a}
-              </span>
-            </div>
-            <div className="color-swatch--square" style={{backgroundColor: this.state.inputColor2a}}>
-              <span style={{ color: this.state.inputColor2aALLY }}>
-                {this.state.inputColor2a}
-              </span>
-            </div>
+
+            <ColorSwatch inputColor={this.state.inputColora} inputALLY={this.state.inputColoraALLY}/>
+            <ColorSwatch inputColor={this.state.inputColor1a} inputALLY={this.state.inputColor1aALLY}/>
+            <ColorSwatch inputColor={this.state.inputColor2a} inputALLY={this.state.inputColor2aALLY}/>
+
+  
           </div>
         </div>
       </div>

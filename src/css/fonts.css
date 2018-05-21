@@ -7,11 +7,11 @@
     font-weight: normal;
     font-style: normal;
 } */
-
+/* 
 @font-face {
     font-family: "Alfa_Slab_One";
     src: url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf");
-    /* src: url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.woff") format("woff"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf") format("truetype"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.svg#AlfaSlabOne-Regular") format("svg"); */
+    src: url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.woff") format("woff"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf") format("truetype"), url("./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.svg#AlfaSlabOne-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,4 +19,34 @@
 
   * {
       font-family: "Alfa_Slab_One";
-  }
+  } */
+
+  /* 
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fanwood Text', serif;
+  font-family: 'Fauna One', serif;
+  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mr De Haviland', cursive;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Neuton', serif;
+  font-family: 'Nixie One', cursive;
+  font-family: 'Old Standard TT', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prata', serif;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Quattrocento', serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Rufina', serif;
+  font-family: 'Sintony', sans-serif; 
+  */
