@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import ColorSwatch from '../components/ColorSwatch';
 import chroma from 'chroma-js';
 
-class Color extends Component { 
+class ColorTemplate extends Component { 
     constructor(){
         super();
         this.state = {
@@ -137,4 +137,4 @@ class Color extends Component {
     }
 }
 
-export default Color;
+export default ColorTemplate;
