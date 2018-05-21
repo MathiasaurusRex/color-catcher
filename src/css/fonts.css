@@ -50,3 +50,281 @@
   font-family: 'Rufina', serif;
   font-family: 'Sintony', sans-serif; 
   */
+
+    .fontContainer {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .fontContainer * {
+        color: rgba(0,0,0,.75);;
+    }
+    .playfair-fauna {}
+
+    .playfair-fauna .fontTitle > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 1px;
+    }
+
+    .playfair-fauna .fontDescription > * {
+        font-family: 'Fauna One', serif;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .quattrocento-fanwood .fontTitle > * {
+        font-family: 'Quattrocento', serif;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .quattrocento-fanwood .fontDescription > * {
+        font-family: 'Fanwood Text', serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .opensans-prata .fontTitle > * {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .opensans-prata .fontDescription > * {
+        font-family: 'Prata', serif;
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    .alfaslab-gentiumbook .fontTitle > * {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 2px
+    }
+
+    .alfaslab-gentiumbook .fontDescription > * {
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .nixieone-librebaskerville .fontTitle > * {
+        font-family: 'Nixie One', cursive;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 1px
+    }
+
+    .nixieone-librebaskerville .fontDescription > * {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .juliussans-crimson .fontTitle > * {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 1px
+    }
+
+    .juliussans-crimson .fontDescription > * {
+        font-family: 'Crimson Text', serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .oswald-quattrocento .fontTitle > * {
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+
+    .oswald-quattrocento .fontDescription > * {
+        font-family: 'Quattrocento', serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .playfair-slab .fontTitle > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+
+    .playfair-slab .fontDescription > * {
+        font-family: 'Slabo 27px', serif;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .oswald-opensans .fontTitle > * {
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+
+    .oswald-opensans .fontDescription > * {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .playfield-muli .fontTitle > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 2px;
+    }
+
+    .playfield-muli .fontDescription > * {
+        font-family: 'Muli', sans-serif;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .sintony-poppins .fontTitle > * {
+        font-family: 'Sintony', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 3px;
+    }
+
+    .sintony-poppins .fontDescription > * {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        letter-spacing: .2px;
+        line-height: 1.8;
+    }
+
+    .rufina-oxygen .fontTitle > * {
+        font-family: 'Rufina', serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 3px;
+    }
+
+    .rufina-oxygen .fontDescription > * {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+    }
+
+    .raleway-playfield .fontTitle > * {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+
+    .raleway-playfield .fontDescription > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 1.8;
+    }
+
+    .raleway-playfield .fontTitle > * {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+
+    .raleway-playfield .fontDescription > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 1.8;
+    }
+
+    .opensans-opensanscondensed .fontTitle > * {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .opensans-opensanscondensed .fontDescription > * {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+    }
+
+    .montserrat-oldstandard .fontTitle > * {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: 1px;
+    }
+
+    .montserrat-oldstandard .fontDescription > * {
+        font-family: 'Old Standard TT', serif;
+        font-size: 20px;
+        line-height: 1.8;
+    }
+
+    .quicksand-raleway .fontTitle > * {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 1.5px;
+    }
+
+    .quicksand-raleway .fontDescription > * {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    .quattrocento-quattrocentosans .fontTitle > * {
+        font-family: 'Quattrocento', sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 1.5px;
+    }
+
+    .quattrocento-quattrocentosans .fontDescription > * {
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    .quattrocentosans-quattrocento .fontTitle > * {
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 1.5px;
+    }
+
+    .quattrocentosans-quattrocento .fontDescription > * {
+        font-family: 'Quattrocento', sans-serif;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    .oswald-playfair .fontTitle > * {
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 2px;
+    }
+
+    .oswald-playfair .fontDescription > * {
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+
+
