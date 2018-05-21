@@ -32,7 +32,8 @@ class FontTemplate extends Component {
             'opensans-opensanscondensed',
             'montserrat-oldstandard',
             'quattrocentosans-quattrocento',
-            'quattrocento-quattrocentosans'
+            'quattrocento-quattrocentosans',
+            'oswald-playfair'
         ]
 
         var randomFont = fontPairs[Math.floor(Math.random()*fontPairs.length)];

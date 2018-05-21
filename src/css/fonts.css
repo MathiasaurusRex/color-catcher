@@ -58,7 +58,6 @@
     .fontContainer * {
         color: rgba(0,0,0,.75);;
     }
-    .playfair-fauna {}
 
     .playfair-fauna .fontTitle > * {
         font-family: 'Playfair Display', serif;
