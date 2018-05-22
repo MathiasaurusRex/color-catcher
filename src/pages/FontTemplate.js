@@ -1,53 +1,25 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux"; 
+
 
 class FontTemplate extends Component { 
+
+
     constructor(){
         super();
-        this.randomFont = this.randomFont.bind(this);
-
-        this.state = { 
-            currentFont: 'playfair-fauna'
-        }
         
     }
 
-    componentDidMount(){
-        this.randomFont();
-    }
 
-    randomFont(){
-        var fontPairs = [
-            'playfair-fauna',
-            'quattrocento-fanwood',
-            'opensans-prata',
-            'alfaslab-gentiumbook',
-            'nixieone-librebaskerville',
-            'juliussans-crimson',
-            'oswald-quattrocento',
-            'playfair-slab',
-            'oswald-opensans',
-            'playfield-muli',
-            'rufina-oxygen',
-            'raleway-playfield',
-            'opensans-opensanscondensed',
-            'montserrat-oldstandard',
-            'quattrocentosans-quattrocento',
-            'quattrocento-quattrocentosans',
-            'oswald-playfair'
-        ]
-
-        var randomFont = fontPairs[Math.floor(Math.random()*fontPairs.length)];
-
-        console.log(randomFont);
-
-        this.setState({ currentFont: randomFont });
+    randomizeFont = () => {
+        this.props.dispatch ({ type: "RANDOMFONT"});
     }
     
     render(){
         return(
             <div className="App">
-                <button onClick={() => { this.randomFont() }}>Random Font</button>
-                <div className={this.state.currentFont + " fontContainer"}>
+                <button onClick={this.randomizeFont}>Random Font</button>
+                <div className={this.props.randomFont + " fontContainer"}>
                     <div className="fontTitle">
                         <h1>Far out in the uncharted backwaters...</h1>
                     </div>
@@ -78,4 +50,8 @@ class FontTemplate extends Component {
     }
 }
 
-export default FontTemplate;
+const mapStateToProps = (state) => ({
+    randomFont: state.randomFont
+})
+
+export default connect(mapStateToProps)(FontTemplate);
