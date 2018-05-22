@@ -25,6 +25,10 @@ class ColorTemplate extends Component {
         this.contrastColor = this.contrastColor.bind(this);
         this.randomColorState = this.randomColorState.bind(this);
       }
+
+      componentDidMount(){
+        this.randomColorState();
+      }
     
       catchColor(event){
         // this.setState({inputColor: chroma(event.target.value)});
