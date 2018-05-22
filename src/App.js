@@ -6,8 +6,11 @@ import { BrowserRouter as Router, Route, withRouter, browserHistory } from 'reac
 
 import logo from './logo.svg';
 import './App.css';
+import './css/header.css';
 import './css/fonts.css';
 import './css/color-swatch.css';
+
+import Header from './components/Header';
 
 import ColorTemplate from './pages/ColorTemplate';
 import FontTemplate from './pages/FontTemplate';
@@ -18,8 +21,10 @@ class App extends Component {
   render() {
     return (
       <div className="" >
+        
         <Router>
           <Fragment>
+            <Header/>
             <Route path="/color" component={ColorTemplate}/>
             <Route path="/font" component={FontTemplate}/>
           </Fragment>

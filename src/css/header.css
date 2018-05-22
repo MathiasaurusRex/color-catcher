@@ -1,0 +1,13 @@
+
+.gl-header-nav {
+    text-align: right;
+    padding: 0;
+}
+
+.gl-header-nav-li {
+    display: inline;
+}
+
+.gl-header-nav-link {
+    padding: 1rem;
+}
