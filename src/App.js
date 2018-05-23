@@ -19,10 +19,10 @@ import ColorTemplate from './pages/ColorTemplate';
 import FontTemplate from './pages/FontTemplate';
 
 const initialState = {
-  randomFont: randomFont()
+  
 }
 
-console.log(initialState);
+
 
 function randomFont(){
 
@@ -57,12 +57,13 @@ function reducer(state = initialState, action){
   switch(action.type){
     case "RANDOMFONT":
       return {
-        randomFont: randomFont()
+        globalFont: randomFont()
       }
-    case "RANDOMCOLOR":
-      return {
-        randomColor: state.count - 1
-      }
+    // case "RANDOMCOLOR":
+    //   return {
+    //     globalColor: randomColor()
+    //   }
+    
     default:
       return state;
   }
@@ -70,7 +71,6 @@ function reducer(state = initialState, action){
 }
 
 const store = createStore(reducer);
-
 store.dispatch({type: "RANDOMFONT"});
 store.dispatch({type: "RANDOMCOLOR"});
 

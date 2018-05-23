@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import ColorSwatch from '../components/ColorSwatch';
 import chroma from 'chroma-js';
+import { connect } from "react-redux"; 
 
 class ColorTemplate extends Component { 
     constructor(){
@@ -112,7 +113,7 @@ class ColorTemplate extends Component {
       }
     render(){
         return(
-            <div className="App" style={{borderColor: this.state.inputColor}}>
+            <div className={"App " + this.props.globalFont} style={{borderColor: this.state.inputColor}}>
                 <input type="text" onChange={this.catchColor}/>
                 <button onClick={() => { this.randomColorState() }}>Random Color</button>
                 {/* <div>{chroma(event.target.value)}</div> */}
@@ -140,5 +141,9 @@ class ColorTemplate extends Component {
         )
     }
 }
+const mapStateToProps = (state) => ({
+  globalFont: state.globalFont,
+  globalColor: state.globalColor
+})
 
-export default ColorTemplate;
+export default connect(mapStateToProps)(ColorTemplate);

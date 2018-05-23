@@ -5,21 +5,19 @@ import { connect } from "react-redux";
 class FontTemplate extends Component { 
 
 
-    constructor(){
-        super();
-        
-    }
-
 
     randomizeFont = () => {
         this.props.dispatch ({ type: "RANDOMFONT"});
     }
     
     render(){
+
         return(
-            <div className="App">
+            
+            <div className={"App " + this.props.globalFont}>
+                { console.log(this.props.randomFont) }
                 <button onClick={this.randomizeFont}>Random Font</button>
-                <div className={this.props.randomFont + " fontContainer"}>
+                <div className={" fontContainer"}>
                     <div className="fontTitle">
                         <h1>Far out in the uncharted backwaters...</h1>
                     </div>
@@ -51,7 +49,8 @@ class FontTemplate extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    randomFont: state.randomFont
+    globalFont: state.globalFont,
+    globalColor: state.globalColor
 })
 
 export default connect(mapStateToProps)(FontTemplate);
