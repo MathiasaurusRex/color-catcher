@@ -121,19 +121,12 @@ class ColorTemplate extends Component {
                 <div class="color-swatch-container">
                 
                 <div className="color-swatch">
-        
+
+                    <ColorSwatch inputColor={this.state.inputColor2a} inputALLY={this.state.inputColor2aALLY}/>
+                    <ColorSwatch inputColor={this.state.inputColor1a} inputALLY={this.state.inputColor1aALLY}/>
                     <ColorSwatch inputColor={this.state.inputColor} inputALLY={this.state.inputColorALLY}/>
                     <ColorSwatch inputColor={this.state.inputColor1} inputALLY={this.state.inputColor1ALLY}/>
                     <ColorSwatch inputColor={this.state.inputColor2} inputALLY={this.state.inputColor2ALLY}/>
-                
-                </div>
-        
-                <div className="color-swatch">
-        
-                    <ColorSwatch inputColor={this.state.inputColora} inputALLY={this.state.inputColoraALLY}/>
-                    <ColorSwatch inputColor={this.state.inputColor1a} inputALLY={this.state.inputColor1aALLY}/>
-                    <ColorSwatch inputColor={this.state.inputColor2a} inputALLY={this.state.inputColor2aALLY}/>
-        
         
                 </div>
                 </div>

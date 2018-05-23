@@ -15,6 +15,7 @@ import './css/color-swatch.css';
 
 import Header from './components/Header';
 
+import HomeTemplate from './pages/HomeTemplate';
 import ColorTemplate from './pages/ColorTemplate';
 import FontTemplate from './pages/FontTemplate';
 
@@ -85,6 +86,7 @@ class App extends Component {
         <Router>
           <Fragment>
             <Header/>
+            <Route path="/" exact component={HomeTemplate}/>
             <Route path="/color" component={ColorTemplate}/>
             <Route path="/font" component={FontTemplate}/>
           </Fragment>
