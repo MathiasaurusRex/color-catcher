@@ -6,7 +6,11 @@ class Header extends Component {
     render(){
         return(
             <header className="gl-header">
-                
+                <span>
+                    <Link to="/">EZ Brand</Link>
+                    by
+                    <a href="#">@MathiasaurusRex</a>
+                </span>
                 <ul className="gl-header-nav">
                     <li className="gl-header-nav-li">
                         <Link className="gl-header-nav-link" to="/">Home</Link>

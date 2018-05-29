@@ -1,4 +1,7 @@
-
+.gl-header {
+    display: flex;
+    justify-content: space-between;
+}
 .gl-header-nav {
     text-align: right;
     padding: 0;
