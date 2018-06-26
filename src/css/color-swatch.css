@@ -46,6 +46,12 @@
     margin: 20px;
     padding: 20px;
     border-radius: 50%;
-    border: 10px solid white;
+    box-shadow: 0 4px 20px -4px rgba(0,0,0,.6);
+  }
+
+  .color-button {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: 2px solid transparent;
     box-shadow: 0 4px 20px -4px rgba(0,0,0,.6);
   }

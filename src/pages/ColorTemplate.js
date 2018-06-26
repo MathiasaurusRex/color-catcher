@@ -99,10 +99,12 @@ class ColorTemplate extends Component {
       }
     
       contrastColor(color, state){
-        var contrastRatio = chroma.contrast(color, 'black');
+        var contrastRatioBlack = chroma.contrast(color, 'black');
+        var contrastRatioWhite = chroma.contrast(color, 'white');
+        
         var allyColor = `#000000`; 
     
-        if( contrastRatio < 4.5) {
+        if( contrastRatioBlack < contrastRatioWhite) {
           allyColor = `#ffffff`;
         }
     
@@ -130,8 +132,8 @@ class ColorTemplate extends Component {
             </svg>
             <div className={"App " + this.props.globalFont} style={{borderColor: this.state.inputColor}}>
 
-                <input type="text" onChange={this.catchColor}/>
-                <button onClick={() => { this.randomColorState() }}>Random Color</button>
+        {/* <input type="text" onChange={this.catchColor}/>*/}
+                <button className="color-button" style={{borderColor: this.state.inputColor}} onClick={() => { this.randomColorState() }}>Click me!</button>
                 {/* <div>{chroma(event.target.value)}</div> */}
                 <div className="color-swatch--source"></div>
                 <div class="color-swatch-container">
