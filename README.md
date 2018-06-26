@@ -18,6 +18,6 @@ Lightest << Lighter < Normal > Darker >> Darkest
 The font on top of the color swatch will either be black ( #000 ) or white ( #fff ) based on whichever has a higher contrast ratio based on the background.
 
 
-![Preview of color-catcher website](https://raw.githubusercontent.com/MathiasaurusRex/color-catcher/blob/master/readme-png.png)
+![Preview of color-catcher website](https://raw.githubusercontent.com/MathiasaurusRex/color-catcher/master/readme-png.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
