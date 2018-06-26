@@ -114,19 +114,19 @@ class ColorTemplate extends Component {
     render(){
         return(
           <Fragment>
-              <svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 659 522'>
-                <defs>
-                    <linearGradient id='grad1' x1='0%' y1='0%' y2='0%'>
-                        <stop offset='0%' stopColor={this.state.inputColor2a} />
-                        <stop offset='25%' stopColor={this.state.inputColor1a} />
-                        <stop offset='50%' stopColor={this.state.inputColor}  />
-                        <stop offset='75%' stopColor={this.state.inputColor1} />
-                        <stop offset='100%' stopColor={this.state.inputColor2} />
-                      
-                    </linearGradient>
-                </defs>
-                <path fill='url(#grad1)' d='M 0 300 C 100 300 100 250 200 250 C 350 250 400 400 550 400 C 650 400 700 300 800 300 L 800 100 L 0 100 L 0 300 Z'
-                />
+            <svg className="svg-top" xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 659 522'>
+              <defs>
+                  <linearGradient id='grad1' x1='0%' y1='0%' y2='0%'>
+                      <stop offset='0%' stopColor={this.state.inputColor2a} />
+                      <stop offset='25%' stopColor={this.state.inputColor1a} />
+                      <stop offset='50%' stopColor={this.state.inputColor}  />
+                      <stop offset='75%' stopColor={this.state.inputColor1} />
+                      <stop offset='100%' stopColor={this.state.inputColor2} />
+                    
+                  </linearGradient>
+              </defs>
+              <path fill='url(#grad1)' d='M 0 300 C 100 300 100 250 200 250 C 350 250 400 400 550 400 C 650 400 700 300 800 300 L 800 100 L 0 100 L 0 300 Z'
+              />
             </svg>
             <div className={"App " + this.props.globalFont} style={{borderColor: this.state.inputColor}}>
 
@@ -147,6 +147,20 @@ class ColorTemplate extends Component {
                 </div>
                 </div>
             </div>
+            <svg className="svg-bottom" xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 659 522'>
+            <defs>
+                <linearGradient id='grad1' x1='0%' y1='0%' y2='0%'>
+                    <stop offset='0%' stopColor={this.state.inputColor2a} />
+                    <stop offset='25%' stopColor={this.state.inputColor1a} />
+                    <stop offset='50%' stopColor={this.state.inputColor}  />
+                    <stop offset='75%' stopColor={this.state.inputColor1} />
+                    <stop offset='100%' stopColor={this.state.inputColor2} />
+                  
+                </linearGradient>
+            </defs>
+            <path fill='url(#grad1)' d='M 0 300 C 100 300 100 250 200 250 C 350 250 400 400 550 400 C 650 400 700 300 800 300 L 800 100 L 0 100 L 0 300 Z'
+            />
+        </svg>
           </Fragment>
         )
     }

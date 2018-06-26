@@ -85,7 +85,7 @@ class App extends Component {
         
         <Router>
           <Fragment>
-            <Header/>
+            
             <Route path="/" exact component={HomeTemplate}/>
             <Route path="/color" component={ColorTemplate}/>
             <Route path="/font" component={FontTemplate}/>
