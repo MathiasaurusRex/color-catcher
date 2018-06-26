@@ -133,7 +133,7 @@ class ColorTemplate extends Component {
             <div className={"App " + this.props.globalFont} style={{borderColor: this.state.inputColor}}>
 
         {/* <input type="text" onChange={this.catchColor}/>*/}
-                <button className="color-button" style={{borderColor: this.state.inputColor}} onClick={() => { this.randomColorState() }}>Click me!</button>
+                <button className="color-button" style={{borderColor: this.state.inputColor, outlineColor: this.state.inputColor}} onClick={() => { this.randomColorState() }}>Click me!</button>
                 {/* <div>{chroma(event.target.value)}</div> */}
                 <div className="color-swatch--source"></div>
                 <div class="color-swatch-container">
