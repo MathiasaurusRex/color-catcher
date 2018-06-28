@@ -17,6 +17,7 @@ import Header from './components/Header';
 
 import HomeTemplate from './pages/HomeTemplate';
 import ColorTemplate from './pages/ColorTemplate';
+import ColorCopy from './pages/ColorCopy';
 import FontTemplate from './pages/FontTemplate';
 
 const initialState = {
@@ -85,7 +86,8 @@ class App extends Component {
         
         <Router>
           <Fragment>
-            <Route path="/" component={ColorTemplate}/>
+            <Route exact path="/" component={ColorTemplate}/>
+            <Route exact path="/color" component={ColorCopy}/>
             <Route path="/font" component={FontTemplate}/>
           </Fragment>
         </Router>
