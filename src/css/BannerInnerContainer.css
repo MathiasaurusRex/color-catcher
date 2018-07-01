@@ -1,0 +1,15 @@
+.c-banner--title {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.c-banner--inner {
+    max-width: 800px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px -4px rgba(0,0,0,.6);
+    margin: 0 auto;
+    text-align: center;
+}

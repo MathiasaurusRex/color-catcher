@@ -4,7 +4,10 @@ import chroma from 'chroma-js';
 import { connect } from "react-redux"; 
 
 import Header from '../components/Header'
+
 import BannerGradient from '../components/BannerGradient';
+
+import '../css/BannerInnerContainer.css';
 
 class ColorCopy extends Component { 
     constructor(){
@@ -122,8 +125,9 @@ class ColorCopy extends Component {
             <Header/>
               <BannerGradient inputColor={[this.state.inputColor2a,this.state.inputColor1a, this.state.inputColor, this.state.inputColor1, this.state.inputColor2 ]}>
 
-              {/* <input type="text" onChange={this.catchColor}/>*/}
-
+                    <h1 className="c-banner--title">Tighten up your brand</h1>
+                    <div className="c-banner--inner">
+                      <h2>Pick your color palette</h2>
                       <button className="color-button" style={{borderColor: this.state.inputColor, outlineColor: this.state.inputColor, backgroundColor: this.state.inputColor1}} onClick={() => { this.randomColorState() }}><span>Click me!</span></button>
 
                       {/* <div>{chroma(event.target.value)}</div> */}
@@ -140,6 +144,7 @@ class ColorCopy extends Component {
                 
                         </div>
                       </div>
+                    </div>
               </BannerGradient>
            
           </Fragment>
